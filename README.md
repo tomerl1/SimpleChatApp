@@ -6,12 +6,12 @@ The server uses NodeJS, Socket.io & Express.<br/>
 The client uses Socket.io, Bootstrap & jQeury.<br/>
 <br/>
 <br/>
-To install the server execute:
+Install dependencies:
 ```
 npm install
 ```
 <br/>
-To run the server execute:
+To run the server:
 ```
 node server.js
 ```
