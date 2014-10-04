@@ -1,8 +1,8 @@
-A multi-rooms chat application
+Multi-Room Chat
 =============
 This is a simple demo of a client/server chat application.<br/>
 <br/>
-The server is based on NodeJS, Socket.io & Express.<br/>
+The server uses NodeJS, Socket.io & Express.<br/>
 The client uses Socket.io, Bootstrap & jQeury.<br/>
 <br/>
 <br/>
