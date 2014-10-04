@@ -11,7 +11,7 @@ Install dependencies:
 npm install
 ```
 <br/>
-To run the server:
+Run the server:
 ```
 node server.js
 ```
