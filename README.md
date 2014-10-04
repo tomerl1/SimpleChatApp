@@ -16,7 +16,7 @@ To run the server execute:
 node server.js
 ```
 <br/>
-Then simply browse the following address (default address)
+Then open the following address in your browser (default address):
 ```
 http://localhost:4040
 ```
