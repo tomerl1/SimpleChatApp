@@ -1,0 +1,9 @@
+{
+  "name": "simple-chat-with-rooms-example",
+  "version": "0.0.1",
+  "description": "Simple Multi-Rooms Chat Application",
+  "dependencies": {
+    "express": "^4.9.5",
+    "socket.io": "^1.1.0"
+  }
+}

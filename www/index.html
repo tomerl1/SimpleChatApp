@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Multi-Rooms Chat Application</title>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/chat.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/src/chat.js"></script>
+</head>
+<body>
+	<section id="main" class="container">
+		<h1 class="page-header">Simple Multi-Rooms Chat Application<br/><small>With NodeJS, Socket.io and Express</small></h1>
+		<div class="row chat-wrapper">
+			<div class='col-xs-6 col-md-9 chat-text'>
+				<div id="chat-text">
+					<div>Choose a nickname to connect</div>
+				</div>
+			</div>
+			<div class='col-xs-4 col-md-3 chat-rooms'>
+				<ul>
+					
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+			<div class='col-sx-10 col-md-12 chat-input'>
+				<input id="input" type="text" class="form-control pull-left"/>
+				<button id="btnSend" type="button" class="btn btn-primary">Send</button>
+			</div>
+			
+		</div>
+	</section>
+</body>
+</html>

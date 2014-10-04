@@ -1,0 +1,14 @@
+.chat-wrapper { height: 400px; }
+.chat-wrapper .chat-rooms, .chat-wrapper .chat-text { height: 100%; border: 1px solid #eee; border-radius: 5px; }
+.chat-wrapper .chat-rooms { padding: 0px; border-left: 0px; border-bottom-left-radius: 0px; border-top-left-radius: 0px; }
+.chat-wrapper .chat-rooms ul { padding: 0px; list-style: none; margin: 10px 0 0 0; }
+.chat-wrapper .chat-rooms li { list-style: none; padding: 5px; cursor: pointer; }
+.chat-wrapper .chat-rooms li.active { font-weight: bold; }
+.chat-wrapper .chat-rooms li:hover { color: #fff; background-color: #428bca; }
+.chat-wrapper .chat-text { border-bottom-right-radius: 0px; border-top-right-radius: 0px; padding: 15px; }
+.chat-wrapper .chat-text .text-success { color: #29A52B;}
+.chat-wrapper #chat-text { padding: 10px 0; overflow-y: scroll; height: 100%; word-wrap: break-word; }
+.chat-input	{ margin-top: 10px; padding-left: 0px; }
+.chat-input input { width: 70%; border-bottom-right-radius: 0px; border-top-right-radius: 0px; }
+.chat-input .btn { border-left: 0px; border-bottom-left-radius: 0px; border-top-left-radius: 0px; }
+
